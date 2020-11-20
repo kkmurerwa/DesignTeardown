@@ -1,0 +1,77 @@
+/* Global Variables */
+:root {
+    --color-primary: rgb(211,58,44);
+    --color-alternate: rgb(189,52,40);
+    --color-primary-dark: rgb(148, 15, 15);
+    --color-text: white;
+}
+
+/* Beginning of Navbar styles*/
+
+
+/* End of navbar styles */
+
+body {
+    margin: 0%;
+    background-color: var(--color-primary-dark);
+}
+
+.navbar {
+    padding: 10px 30px;
+    height: 100px;
+    background-color: var(--color-primary);
+}
+
+.navbar img {
+    height: 70px;
+    width: auto;
+    border: dashed black 3px;
+    padding: 10px;
+    float: left;
+}
+
+.navbar .nav-item {
+    height: 20px;
+    margin: 2% 0% 2% 2px;
+    float: left;
+    padding: 10px 10px 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+}
+
+.navbar .more-nav-link {
+    background-color: var(--color-alternate);
+    border-radius: 10px;
+    height: 20px;
+    margin: 2% 0% 2% 2px;
+    float: left;
+    padding: 10px 10px 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+}
+
+.navbar a:hover {
+    background-color: var(--color-alternate);
+    border-radius: 10px;
+}
+
+.navbar .more-nav-link:hover {
+    background-color: rgb(169,46,35);
+}
+
+.search-view {
+    border-radius: 30px;
+    margin: 2% 0% 2% 2px;
+    width: fit-content;
+    border:1px solid #cccccc;
+    padding: 10px;
+    float: left;
+}
